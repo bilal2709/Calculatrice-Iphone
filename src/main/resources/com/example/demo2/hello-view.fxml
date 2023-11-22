@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="340.0" style="-fx-background-color: #1d1d1e;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.HelloController">
+   <children>
+      <Circle fill="#9e9ea1" layoutX="53.0" layoutY="280.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#9e9ea1" layoutX="128.0" layoutY="280.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#9e9ea1" layoutX="201.0" layoutY="280.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f5b111" layoutX="280.0" layoutY="280.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="53.0" layoutY="358.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="128.0" layoutY="358.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="201.0" layoutY="358.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f5b111" layoutX="280.0" layoutY="358.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="53.0" layoutY="433.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="128.0" layoutY="433.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="201.0" layoutY="433.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f5b111" layoutX="280.0" layoutY="433.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="201.0" layoutY="579.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f5b111" layoutX="280.0" layoutY="506.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Ellipse fill="#49494a" layoutX="85.0" layoutY="579.0" radiusX="69.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="undo" layoutX="32.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleClearClick" prefHeight="38.0" prefWidth="39.0" style="-fx-background-color: #9e9ea1;" styleClass="style.css" text="Ac">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="negation" layoutX="104.0" layoutY="260.0" mnemonicParsing="false" onAction="#handleNegationClick" prefHeight="38.0" prefWidth="47.0" style="-fx-background-color: #9e9ea1;" styleClass="style.css" text="+/-">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="pourcentage" layoutX="181.0" layoutY="261.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="39.0" style="-fx-background-color: #9e9ea1;" text="\%">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="division" layoutX="260.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleOperatorClick" prefHeight="39.0" prefWidth="39.0" style="-fx-background-color: #f5b111;" text="/" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="sept" layoutX="33.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="30.0" prefWidth="24.0" style="-fx-background-color: #49494a;" text="7" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="huit" layoutX="108.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="26.0" prefWidth="19.0" style="-fx-background-color: #49494a;" text="8" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="neuf" layoutX="181.0" layoutY="335.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="45.0" prefWidth="37.0" style="-fx-background-color: #49494a;" text="9" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="multiplication" layoutX="260.0" layoutY="338.0" mnemonicParsing="false" onAction="#handleOperatorClick" style="-fx-background-color: #f5b111;" text="x" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="quatre" layoutX="32.0" layoutY="413.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="38.0" prefWidth="24.0" style="-fx-background-color: #49494a;" text="4" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cinq" layoutX="109.0" layoutY="413.0" mnemonicParsing="false"  onAction="#handleNumberClick" style="-fx-background-color: #49494a;" text="5" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="six" layoutX="181.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleNumberClick" style="-fx-background-color: #49494a;" text="6" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="soustraction" layoutX="262.0" layoutY="414.0" mnemonicParsing="false" onAction="#handleOperatorClick" style="-fx-background-color: #f5b111;" text="-" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="zero" layoutX="39.0" layoutY="560.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="38.0" prefWidth="92.0" style="-fx-background-color: #49494a;" text="0" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="decimal" layoutX="182.0" layoutY="557.0" mnemonicParsing="false" style="-fx-background-color: #49494a;" text="," textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Pane layoutX="-2.0" layoutY="2.0" prefHeight="224.0" prefWidth="342.0">
+         <children>
+            <Text fx:id="resultat" fill="WHITE" layoutX="17.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="RIGHT" wrappingWidth="287.6353416442871">
+               <font>
+                  <Font size="62.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Circle fill="#49494a" layoutX="53.0" layoutY="505.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="128.0" layoutY="505.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#49494a" layoutX="201.0" layoutY="505.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#f5b111" layoutX="280.0" layoutY="579.0" radius="31.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="un" layoutX="35.0" layoutY="486.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="38.0" prefWidth="24.0" style="-fx-background-color: #49494a;" text="1" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="deux" layoutX="109.0" layoutY="486.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="38.0" prefWidth="24.0" style="-fx-background-color: #49494a;" text="2" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="trois" layoutX="181.0" layoutY="486.0" mnemonicParsing="false" onAction="#handleNumberClick" prefHeight="38.0" prefWidth="24.0" style="-fx-background-color: #49494a;" text="3" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="addition" layoutX="260.0" layoutY="486.0" mnemonicParsing="false" onAction="#handleOperatorClick" style="-fx-background-color: #f5b111;" text="+" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="egale" layoutX="260.0" layoutY="560.0" mnemonicParsing="false" onAction="#handleEqualsClick" style="-fx-background-color: #f5b111;" text="=" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
